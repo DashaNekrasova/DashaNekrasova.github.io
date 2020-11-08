@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .h1 {
+      font-family: Helvetica;
+      font-size: 10vw;
+  }
+  
+
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+
+    list-style-type: none;
+    text-align: center;
+    background-color: #fff348;
+
+
+  }
+
+  .navbar a {
+    display: inline-block; 
+
+    font-family: Helvetica;
+    font-size: 2vw;
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+  }
+
+  .navbar li{
+    width: 23.75%;
+    flex-shrink: 0;
+  }
+
+  li#logo{
+    width: 5%;
+    padding-top: none;
+    padding-left: 70px;
+  }
+
+  li#logo img{
+    width: 100%;
+  }
+
+  li#logo a{
+    padding-top: 0;
+  }
+
+  .navbar li:nth-child(2){
+  flex-shrink: 2;  
+  }
+
+  .navbar li:nth-child(5){
+    padding-right: 20px;
+  }
+
+
+  /* .navbar {
+    display: table;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    background-color: #fff348;
+  }
+
+  
+  .navbar li { 
+    display: table-cell;
+    float: none;
+    width: 20%;
+    display: inline-block; 
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    } */
+
+    .img-cnt{
+        width: 42%;
+        float: left;
+        margin: 10px 10px 0 90px;
+    }
+
+    .txt-cnt{
+        font-family: Helvetica;
+        font-size: 3vw;
+        float: right;
+        width: 50%;
+
+    }
+
+    .txt-cnt p{
+        padding: 10%;
+    }
+
+    /** Design page **/
+
+    #main-design{
+      width: 100%;
+      height: 100%;
+      background-image: url("./images/bg-design.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+
+    #my-works{
+      display: flex;
+
+      justify-content: space-evenly;
+      align-items: center;
+
+      height: inherit;
+
+      font-family: Helvetica;
+
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 7%;
+      margin-right: 7%;
+    }
+
+    .items-works{
+      display: flex;
+      justify-content: center;
+
+      align-items: center;
+      text-align: center;
+
+      font-size: 2vw;
+      text-transform: uppercase;
+
+      background-color: #fff348;
+      width: 16%;
+      height: 44%;
+    }
+
+    .items-works a{
+      color: black;
+      text-decoration: none;
+    }
+
+    /* Плакаты */
+    .el1 img{
+      width: 100%;
+    }
+
+    .plakati{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .el1{
+      width: 44%;
+      padding: 3% 2% 3% 3%;
+
+    }
+    
+    .el2{
+      display: flex;
+      align-items: flex-end;
+
+      font-family: Helvetica;
+      font-size: 35px;
+
+      width: 44%;
+      padding: 3% 3% 3% 0;
+    }
+
+
+    #text.el2{
+      padding-right: 0;
+    }
+
+    #text.el2 p{
+      text-align: right;
+      margin-left: auto;
+    }
+    /* abc */
+    #abc{
+      position: relative;
+      width: 100%;
+    }
+
+    #abc img{
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
+      margin: 3% 25% 3% 25%;
+    }
+
+    p#days33{
+
+    }
+    /*patterns*/
+    .patterns{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2%;
+
+    }
+
+    .patterns img{
+      width: 33%;
+    }
+
+    /* .pattern{
+      width: 33.3%;
+    }
+
+    .pattern img{
+      width: inherit;
+      height: inherit;
+    } */
+    .another{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 2%;
+    }
+    .another img{
+      width: 25%;
+    }
+
+    /*movies*/
+
+    .all{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 1%;
+    }
+    .allimg{
+      width: 25%;
+      margin-bottom: 1%;
+    }
+    
+    .allimg img{
+      width: 100%;
+    }
+    .alltxt{
+      display: flex;
+
+      font-family: Helvetica;
+      font-size: 1vw;
+
+      width: 20%;
+     
+    
+    }
