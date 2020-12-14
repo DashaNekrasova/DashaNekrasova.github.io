@@ -29,7 +29,9 @@
     text-decoration: none;
     padding-top: 20px;
   }
-
+ .navbar a:hover{
+   color: #ffffff;
+ }
   .navbar li{
     width: 23.75%;
     flex-shrink: 0;
@@ -57,28 +59,6 @@
     padding-right: 20px;
   }
 
-
-  /* .navbar {
-    display: table;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    width: 100%;
-    text-align: center;
-    background-color: #fff348;
-  }
-
-  
-  .navbar li { 
-    display: table-cell;
-    float: none;
-    width: 20%;
-    display: inline-block; 
-    box-sizing: border-box;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    } */
-
     .img-cnt{
         width: 42%;
         float: left;
@@ -87,7 +67,7 @@
 
     .txt-cnt{
         font-family: Helvetica;
-        font-size: 2vw;
+        font-size: 1.5vw;
         float: right;
         width: 50%;
 
@@ -107,13 +87,6 @@
     }
     /** Design page **/
 
-    #main-design{
-      width: 100%;
-      height: 100%;
-      background-image: url("./images/bg-design.png");
-      background-repeat: no-repeat;
-      background-size: 100%;
-    }
 
     #my-works{
       display: flex;
@@ -121,36 +94,116 @@
       justify-content: space-evenly;
       align-items: center;
 
-      height: inherit;
+      height: 100%;
 
       font-family: Helvetica;
-
-      margin-top: auto;
-      margin-bottom: auto;
-      margin-left: 7%;
-      margin-right: 7%;
     }
 
-    .items-works{
-      display: flex;
+    .items-works1{
       justify-content: center;
 
-      align-items: center;
+
       text-align: center;
 
       font-size: 2vw;
       text-transform: uppercase;
 
-      background-color: #fff348;
-      width: 16%;
-      height: 44%;
+
+      width: 50%;
+      height: 100%;
+	  
+	  background: url("images/portfolio/b&d.jpg");
+	  background-repeat: no-repeat;
+	  background-size: 100%; 
+    }
+	    .items-works2{
+      justify-content: center;
+      text-align: center;
+
+
+      text-transform: uppercase;
+
+      width: 50%;
+      height: 100%;
+	  
+	  background: url("images/portfolio/mine.jpg");
+	  background-repeat: no-repeat;
+	  background-size: 100%; 
+
     }
 
-    .items-works a{
-      color: black;
-      text-decoration: none;
+    .items-works1 a{
+	display: block;
+	
+	font-size: 9vw;
+    color: white;
+    text-decoration: none;
+	  
+	padding-top: 32%;
+	  
+	  
     }
+    .items-works1 a:hover{
+      color: #fff348;
+    }
+	
+	.items-works2 a{
+	display: block;
+	
+	font-size: 9vw;
+	color: #000000;
+    text-decoration: none;
+	
+	padding-top: 32%;
+}
+.items-works2 a:hover{
+  color: #fff348;
+}
 
+
+	/*bd */
+	.creative-foto{
+	display: flex;
+	
+	margin-top: 0.7%;
+	justify-content: space-between;
+	}
+	
+		.creative-foto2{
+	display: flex;
+	
+	flex-grow: 1;
+	margin-top: 0.7%;
+	justify-content: space-between;
+	}
+	
+	.creative-foto2#two{
+
+	}
+	
+	
+	
+	.creative-foto2-items{
+	display: flex;
+	
+	width: 50%;
+	margin-top: 0.7%;
+	justify-content: flex-start;
+	}
+	
+	
+	.creative-foto2-items img{
+	height: 400px;
+	}
+	
+	.creative-foto img{
+	height: 230px;
+	}
+	
+	.creative-foto2 img{
+	height: 380px;
+	}
+	
     /*posters*/
 
     .el1 img{
@@ -188,38 +241,6 @@
       text-align: right;
       margin-left: auto;
     }
-    /* abc */
-
-    /* .posters {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin: 1%;
-    }
-    
-    .pic50 {
-      width: 40%;
-    }
-    
-    .pic50 img {
-      width: 100%;
-    }
-
-    .pic1 {
-      width: 30%;
-    }
-
-    .pic1 img{
-      width: 100%;
-    }
-
-    .pic2 {
-      width: 26.7%;
-    }
-
-    .pic2 img {
-      width: 100%;
-    } */
 
 
     #abc{
@@ -268,23 +289,137 @@
       margin: 1%;
     }
     .allimg{
+
       width: 25%;
       margin-bottom: 1%;
     }
     
     .allimg img{
       width: 100%;
-    }
-    .alltxt{
-      display: flex;
 
+    }
+	
+	.all a{
+  display: inline-block;
+  width: 100%;
+}
+	.all a:hover img {
+  opacity: 0;
+}
+
+.poster1:hover {
+  background: url("images/A_Dark_Song.jpg");
+    background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.poster2:hover {
+  background: url("images/The_Witch.jpg");
+    background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.poster3:hover {
+  background: url("images/Snatch.jpg");
+    background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.poster4:hover {
+  background: url("images/the_gentlemen.jpg");
+    background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.poster5:hover {
+  background: url("images/The_Shawshank_Redemption.jpg");
+    background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.poster6:hover {
+  background: url("images/parasite.jpg");
+    background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+
+    .alltxt{
       font-family: Helvetica;
       font-size: 1vw;
 
       width: 20%;
     }
+	
+	div.film-hover1 {
+		width: 25%;
+		height: 500px;
+		margin-bottom: 1%;
+		
+		background: url(images/A_Dark_Song_B&W.jpg); 
+		background-repeat: no-repeat;
+		background-size: 100%;
+}
 
+div.film-hover1:hover {
+
+		background: url(images/A_Dark_Song.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+}
+
+	div.film-hover2 {
+		width: 25%;
+		margin-bottom: 1%;
+		
+		background: url(images/The_Witch_B&W.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+}
+
+div.film-hover2:hover {
+		background: url(images/The_Witch.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+}
+
+	div.film-hover3 {
+		width: 25%;
+		margin-bottom: 1%;
+		
+		background: url(images/Snatch_B&W.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+}
+
+div.film-hover3:hover {
+		background: url(images/Snatch.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+}
+	
+	/* cooking */
+    .alltxt-cooking{
+
+      font-family: Helvetica;
+      font-size: 1vw;
+	  
+	  padding-top: 2%;
+
+      width: 20%;
+    }
     /*jorney*/
     .video {
       width: 10%;
+    }
+    a.rollover {
+      background: url(images/A_Dark_Song_B&W.jpg);
+      display: block;
+      width: 100%;
+    
+    }
+    a.rollover:hover {
+      background-position: 0 -50%;
     }

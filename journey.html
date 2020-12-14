@@ -2,35 +2,112 @@
     <head>
         <title>journey</title>
         <link rel="stylesheet" href="style.css" type="text/css"/>
+        <style>
+            h1 {
+                font-family: Helvetica, Sans-Serif;
+                margin-top: 2%;
+                margin-bottom: 3%;
+                margin-left: 3%;
+                font-size: 3vw;
+                text-align: center;
+            }
+            .hold{
+                position:relative;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 5%;
+            }
+            .txt-on-img {
+	            position: absolute;
+	            top: 20%;
+	            left: 37%;
+                width: 26%;
+                font-family: Helvetica;
+                font-size: 1vw;
+            }
+            .goldenbee-flex {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .column {
+            width: 24%;
+            margin-bottom: 1%;
+            }
+
+            .column img{
+                width: 100%;
+            }
+
+            p{
+                font-family: Helvetica, Sans-Serif; 
+                font-size: 1vw   
+            }
+
+            .spacing {
+                margin-top: 54%;
+            }
+            
+        </style>
     </head>
 
     <body>
         <ul class="navbar">
-            <li id="logo"><a href="index.html"><img src="images/mono1.svg"></a></li>
-            <li><a href="design.html">Дизайню</a></li>
-            <li><a href="cooking.html">Готовлю еду</a></li>
-            <li><a href="movies.html">Смотрю фильмы</a></li>
-            <li><a href="journey.html">Гуляю по Москве</a></li>
+            <li id="logo"><a href="index.html"><img src="images/home.svg"></a></li>
+            <li><a href="design.html" target="blank">ДИЗАЙНЮ</a></li>
+            <li><a href="cooking.html">ГОТОВЛЮ ЕДУ</a></li>
+            <li><a href="movies.html">СМОТРЮ ФИЛЬМЫ</a></li>
+            <li><a href="journey.html">ГУЛЯЮ ПО МОСКВЕ</a></li>
           </ul>
 
-          <div class="all">
-              
-            <div class="alltxt">
-                <p>ЗОЛОТАЯ ПЧЕЛА <br>6-11 октября 2020 года в Третьяковской галерее проходила выставка МОСКОВСКАЯ МЕЖДУНАРОДНАЯ БИЕННАЛЕ ГРАФИЧЕСКОГО ДИЗАЙНА
-                    Московская международная биеннале графического дизайна «Золотая пчела» проводится с 1992 года и традиционно представляет лучшие образцы графического дизайна со всего мира, осмысляя современную визуальную культуру и способствуя ее развитию.
-                    Тема биеннале 2020 года — плакат. «Плакат без границ», без тематических и технологических ограничений — главная конкурсная номинация и раздел «Золотой пчелы 14», которая прошла в Западном крыле Новой Третьяковки, а также в Центре современного искусства «Винзавод» и Школе дизайна РАНХиГС. 
-                    Первое впечатление: плакаты везде! Они на стенах, под потолком и даже на полу. Кроме того, на перегородку в центре выставки транслировались анимированные работы участников. Экспозиция "Золотой пчелы" была интересной и необычной. Мы провели много времени там, и я посещала выставку дважды, чтобы лучше рассмотреть все работы.
+        <h1>МУЗЕЙ-ЗАПОВЕДНИК ЦАРИЦЫНО</h1>
+          <div class="hold">
+            <img src="images/hold.svg" alt=""/>
+            <p class="txt-on-img">Царицыно - моя станция метро. Так что в этом парке я была уже несколько раз.
+                Самое клёвое тут - это дворец и фонтан! Есть много фотозон 
+                и аккуратная площадка за дворцом, где можно устроить пикник и почувствовать себя имератрицей)))</p>
+        </div>
+
+        <h1>ЗОЛОТАЯ ПЧЕЛА</h1>
+        <div class="goldenbee-flex">
+            <div class="column">
+                <img src="images/bee.svg"
+                width="75%" height="75%">
+            <per>
+               <p> 6-11 октября 2020 года 
+                в Третьяковской галерее
+                проходила выставка
+                МОСКОВСКАЯ 
+                МЕЖДУНАРОДНАЯ 
+                БИЕННАЛЕ 
+                ГРАФИЧЕСКОГО 
+                ДИЗАЙНА  
                 </p>
+            </per>
+
             </div>
-            <div class="allimg">
-                <img src="./images/bee1.jpg">
+
+            <div class="column">
+                <img src="images/bee2.svg"
+                width="35%" height="35%">
+                <per>
+                <p class="spacing">Бывают такие выставки, после которых чувствуешь,
+                что стал больше понимать 
+                в дизайне. Эта выставка была такой!
+                Мне потребовалось два дня, чтобы посмотреть все плакаты, хотя
+                они и занимали только один зал «Третьяковки» 
+            </p>
+            </per>
             </div>
-            <div class="allimg">
-                <img src="./images/bee2.jpg">
+
+            <div class="column">
+                <img src="images/bee1.jpg">
             </div>
-            <div class="allimg">
-                <img src="./images/bee3.jpg">
+
+            <div class="column">
+                <img src="images/bee2.jpg">
             </div>
-          </div>
+        </div>
     </body>
 </html>
