@@ -39,8 +39,9 @@
 
   li#logo{
     width: 5%;
-    padding-top: none;
-    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: none;
+    padding-left: 20px;
   }
 
   li#logo img{
@@ -49,6 +50,16 @@
 
   li#logo a{
     padding-top: 0;
+  }
+
+  .navbar a:hover img {
+    opacity: 0;
+  }
+
+  .logo:hover {
+    background: url("images/home_white.svg");
+      background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .navbar li:nth-child(2){
@@ -171,10 +182,8 @@
 	
 		.creative-foto2{
 	display: flex;
-	
-	flex-grow: 1;
-	margin-top: 0.7%;
-	justify-content: space-between;
+  margin-top: 0.7%;
+  
 	}
 	
 	.creative-foto2#two{
@@ -186,22 +195,20 @@
 	.creative-foto2-items{
 	display: flex;
 	
-	width: 50%;
-	margin-top: 0.7%;
-	justify-content: flex-start;
+	margin-top: 3%;
+	justify-content: space-between;
 	}
 	
 	
 	.creative-foto2-items img{
-	height: 400px;
+    width: 32.5%;
 	}
 	
 	.creative-foto img{
-	height: 230px;
+	height: 210px;
 	}
 	
 	.creative-foto2 img{
-	height: 380px;
 	}
 	
     /*posters*/
